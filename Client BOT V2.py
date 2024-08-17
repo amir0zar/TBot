@@ -11,7 +11,7 @@ from telegram.ext import (
 TOKEN = "7502162456:AAGSW83AB6wk9kiaUdzC6OROWke-9vY6CL8"
 
 # File path for the configuration list
-CONFIG_FILE_PATH = "https://github.com/amir0zar/TBot/blob/80ed5f45427a65818198b96a5b3cf6b28fe25884/src/CONFS.txt"
+CONFIG_FILE_PATH = "src\CONFS.txt"
 
 # Configuration options with prices (modifiable by bot owners)
 config_options = {
