@@ -107,8 +107,8 @@ async def button_click(update: Update, context: CallbackContext) -> None:
 async def handle_tutorial(query):
     """Handles the TUTORIAL button click."""
     keyboard = [
-        [InlineKeyboardButton("V2RAY-NG", url="E:\TBot\Sales\src\Darkside.mp4")],
-        [InlineKeyboardButton("SSH", url="E:\TBot\Sales\src\Numb.mp4")],
+        [InlineKeyboardButton("V2RAY-NG", url="src\mood-sad.mp4")],
+        [InlineKeyboardButton("SSH", url="src\vpn-https.mp4")],
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await query.edit_message_text(
@@ -119,8 +119,18 @@ async def handle_tutorial(query):
 async def handle_software(query):
     """Handles the Necessary Software button click."""
     keyboard = [
-        [InlineKeyboardButton("SSH-Client", url="E:\TBot\Sales\src\WDCFree_11.0.9.823.exe")],
-        [InlineKeyboardButton("V2ray-NG", url="E:\TBot\Sales\src\OperaGXSetup_3.exe")],
+        [
+            InlineKeyboardButton(
+                "SSH-Client",
+                url="https://dl2.apkshub.com/download/com.napsternetlabs.napsternetv-62.0.0-free?dv=6a5c93730fb05508ee3c2a57ec5f5676&st=1723891992",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                "V2ray-NG",
+                url="https://dl2.apkshub.com/download/com.v2ray.ang-1.8.29-free?dv=32b4962f5e29594b92d70b43ea641735&st=1723892125",
+            )
+        ],
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await query.edit_message_text(
