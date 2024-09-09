@@ -8,3 +8,6 @@ https://dl2.apkshub.com/download/com.v2ray.ang-1.8.29-free?dv=32b4962f5e29594b92
 
 NapsternetV Link:
 https://dl2.apkshub.com/download/com.napsternetlabs.napsternetv-62.0.0-free?dv=6a5c93730fb05508ee3c2a57ec5f5676&st=1723891992
+
+
+Bot Token: "7502162456:AAGSW83AB6wk9kiaUdzC6OROWke-9vY6CL8"
